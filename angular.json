@@ -17,6 +17,11 @@
             "tsConfig": "src/tsconfig.app.json",
             "polyfills": "src/polyfills.ts",
             "assets": [
+              {
+                "glob": "**/*",
+                "input": "./node_modules/@ant-design/icons-angular/src/inline-svg/",
+                "output": "/assets/"
+              },
               "src/assets",
               "src/favicon.ico"
             ],
@@ -25,6 +30,7 @@
               "node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
               "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
               "node_modules/@fortawesome/fontawesome-free/css/v4-shims.min.css",
+              "node_modules/ng-zorro-antd/ng-zorro-antd.min.css",
               "node_modules/path-framework/styles.css",
               "src/path-example.css"
             ],
@@ -79,10 +85,16 @@
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
               "node_modules/font-awesome/css/font-awesome.min.css",
+              "node_modules/ng-zorro-antd/ng-zorro-antd.min.css",
               "node_modules/path-framework/styles.css",
               "src/path-example.css"
             ],
             "assets": [
+              {
+                "glob": "**/*",
+                "input": "./node_modules/@ant-design/icons-angular/src/inline-svg/",
+                "output": "/assets/"
+              },
               "src/assets",
               "src/favicon.ico"
             ]

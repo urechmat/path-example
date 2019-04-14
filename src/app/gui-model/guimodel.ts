@@ -50,6 +50,37 @@ export class GuiModel {
                             "width": 2
                         },
                         {
+                            "id": "TestRating",
+                            "type": "starRating",
+                            "name": "TestRating",
+                            "width": 2,
+                            "max": 12,
+                            "value": 2,
+                            "header": [{
+                                name: "Product",
+                                key: "Product"
+                            }, {
+                                name: "Service",
+                                key: "Service"
+                            }, {
+                                name: "zui",
+                                key: "zui"
+                            }
+                            ],
+                            "row": [{
+                                key: "1",
+                                product: "Product1",
+                                service: "Service1",
+                                zui: "zui1"
+                            }, {
+                                key: "2",
+                                product: "Product2",
+                                service: "Service2",
+                                zui: "asdasdasd"
+                            }
+                            ]
+                        },
+                        {
                             "id": "comment",
                             "type": "text",
                             "name": "Comments",
