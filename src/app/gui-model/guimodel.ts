@@ -68,12 +68,12 @@ export class GuiModel {
                             }
                             ],
                             "row": [{
-                                key: "1",
+                                id: "0",
                                 product: "Product1",
                                 service: "Service1",
                                 zui: "zui1"
                             }, {
-                                key: "2",
+                                id: "1",
                                 product: "Product2",
                                 service: "Service2",
                                 zui: "asdasdasd"
