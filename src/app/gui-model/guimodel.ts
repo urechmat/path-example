@@ -57,26 +57,25 @@ export class GuiModel {
                             "max": 12,
                             "value": 2,
                             "header": [{
-                                name: "Product",
-                                key: "Product"
+                                key: "product",
+                                name: "Product"
                             }, {
-                                name: "Service",
-                                key: "Service"
-                            }, {
-                                name: "zui",
-                                key: "zui"
+                                key: "service",
+                                name: "Service"
                             }
                             ],
                             "row": [{
                                 id: "0",
                                 product: "Product1",
-                                service: "Service1",
-                                zui: "zui1"
+                                service: "Service1"
                             }, {
                                 id: "1",
                                 product: "Product2",
-                                service: "Service2",
-                                zui: "asdasdasd"
+                                service: "Service2"
+                            }, {
+                                id: "2",
+                                product: "Product3",
+                                service: "Service3"
                             }
                             ]
                         },
