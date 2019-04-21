@@ -55,9 +55,9 @@ export class GuiModel {
                             "name": "TestTable",
                             "width": 2,
                             "title": "Table has title",
-                            "readonly": true,
+                            "readonly": false,
                             "sorting": false,
-                            "paginationNumb": 2,
+                            "paginationNumb": 5,
                             "paginationMax": 10,
                             "header": [{
                                 key: "col1",
