@@ -54,6 +54,7 @@ export class GuiModel {
                             "type": "Accordion",
                             "name": "TestAccordion",
                             "width": 2,
+                            "multiple": false,
                             "accordion": [{
                                 title: "Header 1",
                                 text: "A-Rating"
