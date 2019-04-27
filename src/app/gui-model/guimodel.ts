@@ -87,6 +87,27 @@ export class GuiModel {
                             ]
                         },
                         {
+                            "id": "TestAccordion",
+                            "type": "Accordion",
+                            "name": "TestAccordion",
+                            "width": 2,
+                            "multiple": false,
+                            "accordion": [{
+                                title: "Header 1",
+                                text: "A-Rating"
+                            }, {
+                                title: "Header 2",
+                                text: "B-Rating"
+                            }, {
+                                title: "Header 3",
+                                text: "C-Rating"
+                            }, {
+                                title: "Header 4",
+                                text: "D-Rating"
+                            }
+                            ]
+                        },
+                        {
                             "id": "comment",
                             "type": "text",
                             "name": "Comments",
