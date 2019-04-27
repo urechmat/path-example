@@ -51,7 +51,7 @@ export class GuiModel {
                         },
                         {
                             "id": "TestTable",
-                            "type": "Table",
+                            "type": "FormTable",
                             "name": "TestTable",
                             "width": 2,
                             "title": "Table has title",
