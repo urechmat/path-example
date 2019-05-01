@@ -53,38 +53,7 @@ export class GuiModel {
                             "id": "TestTable",
                             "type": "Table",
                             "name": "TestTable",
-                            "width": 2,
-                            "title": "Table has title",
-                            "readonly": false,
-                            "sorting": false,
-                            "paginationNumb": 5,
-                            "paginationMax": 10,
-                            "header": [{
-                                key: "col1",
-                                name: "Service1"
-                            }, {
-                                key: "col2",
-                                name: "Service2"
-                            }, {
-                                key: "col3",
-                                name: "Service3"
-                            }, {
-                                key: "col4",
-                                name: "Service4"
-                            }
-                            ],
-                            "row": [{
-                                col1: "Product1",
-                                col2: "Service2",
-                                col3: "Product3",
-                                col4: "Service4"
-                            }, {
-                                col1: "asd",
-                                col2: "sadasd",
-                                col3: "asdasdasd",
-                                col4: "asdasdasdasd"
-                            }
-                            ]
+                            "width": 2
                         },
                         {
                             "id": "comment",
