@@ -50,12 +50,6 @@ export class GuiModel {
                             "width": 2
                         },
                         {
-                            "id": "TestTable",
-                            "type": "Table",
-                            "name": "TestTable",
-                            "width": 2
-                        },
-                        {
                             "id": "comment",
                             "type": "text",
                             "name": "Comments",
@@ -120,6 +114,12 @@ export class GuiModel {
                                 key: 3
                             }
                             ]
+                        },
+                        {
+                            "id": "TestMaps",
+                            "type": "Maps",
+                            "name": "TestMaps",
+                            "width": 2
                         },
                         {
                             "type": "deleteButton",
