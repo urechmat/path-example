@@ -116,10 +116,20 @@ export class GuiModel {
                             ]
                         },
                         {
-                            "id": "TestMaps",
+                            "id": "formMap",
                             "type": "Maps",
-                            "name": "TestMaps",
-                            "width": 2
+                            "name": "Location",
+                            "width": 2,
+                            "marker": [{
+                                latitude: 47.37900941026924,
+                                longitude: 8.592210836538356,
+                                title: "Head Office"
+                            }, {
+                                latitude: 47.67900941026924,
+                                longitude: 8.592210836538356,
+                                title: "Head Office 2"
+                            }
+                            ]
                         },
                         {
                             "type": "deleteButton",
