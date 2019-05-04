@@ -27,7 +27,8 @@ export class GuiModel {
                         {
                             "id": "toggle",
                             "type": "Toggle",
-                            "name": "Member"
+                            "name": "Member",
+                            "checked": true
                         },
                         {
                             "id":   "company",
