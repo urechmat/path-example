@@ -56,39 +56,35 @@ export class GuiModel {
                             "width": 2
                         },
                         {
-                            "id": "TestTable",
+                            "id": "formTable",
                             "type": "FormTable",
                             "name": "TestTable",
-                            "width": 2,
-                            "title": "Table has title",
-                            "readonly": false,
+                            "readonly": true,
                             "sorting": false,
-                            "paginationNumb": 5,
-                            "paginationMax": 10,
                             "header": [{
                                 key: "col1",
-                                name: "Service1"
+                                name: "Column 1"
                             }, {
                                 key: "col2",
-                                name: "Service2"
+                                name: "Column 2"
                             }, {
                                 key: "col3",
-                                name: "Service3"
+                                name: "Column 3"
                             }, {
                                 key: "col4",
-                                name: "Service4"
+                                name: "Column 4"
                             }
                             ],
                             "row": [{
-                                col1: "Product1",
-                                col2: "Service2",
-                                col3: "Product3",
-                                col4: "Service4"
+                                col1: "Column 1 Row 1",
+                                col2: "Column 2 Row 1",
+                                col3: "Column 3 Row 1",
+                                col4: "Column 4 Row 1"
                             }, {
-                                col1: "asd",
-                                col2: "sadasd",
-                                col3: "asdasdasd",
-                                col4: "asdasdasdasd"
+                                col1: "Column 1 Row 2",
+                                col2: "Column 2 Row 2",
+                                col3: "Column 3 Row 2",
+                                col4: "Column 4 Row 2"
                             }
                             ]
                         },
