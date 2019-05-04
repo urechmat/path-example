@@ -69,6 +69,7 @@ export class ExampleTranslationService extends TranslationService {
                 "User": "Benutzer",
                 "Informations": "Informationen",
                 "TestSlider": "TestSlider",
+                "Member": "Member",
                 "www.google.com": "www.google.com"
             };
         } else {
@@ -122,6 +123,7 @@ export class ExampleTranslationService extends TranslationService {
                 "User": "User",
                 "Informations": "Informations",
                 "TestSlider": "TestSlider",
+                "Member": "Member",
                 "www.google.com": "www.google.com"
             };
         }

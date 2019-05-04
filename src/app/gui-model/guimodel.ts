@@ -25,6 +25,11 @@ export class GuiModel {
                             "required": true
                         },
                         {
+                            "id": "toggle",
+                            "type": "Toggle",
+                            "name": "Member"
+                        },
+                        {
                             "id":   "company",
                             "type": "autocomplete",
                             "name": "Company",
@@ -102,7 +107,7 @@ export class GuiModel {
                             ]
                         },
                         {
-                            "id": "TestSlider",
+                            "id": "slider",
                             "type": "SliderField",
                             "name": "TestSlider",
                             "width": 1,
