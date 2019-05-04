@@ -87,25 +87,27 @@ export class GuiModel {
                             ]
                         },
                         {
-                            "id": "TestAccordion",
+                            "id": "informations",
                             "type": "Accordion",
-                            "name": "TestAccordion",
+                            "name": "Informations",
                             "width": 2,
                             "multiple": false,
                             "accordion": [{
-                                title: "Header 1",
-                                text: "A-Rating"
+                                title: "Title 1",
+                                text: "Information text 1"
                             }, {
-                                title: "Header 2",
-                                text: "B-Rating"
-                            }, {
-                                title: "Header 3",
-                                text: "C-Rating"
-                            }, {
-                                title: "Header 4",
-                                text: "D-Rating"
+                                title: "Title 2",
+                                text: "Information text 2"
                             }
                             ]
+                        },
+                        {
+                            "id": "TestSlider",
+                            "type": "SliderField",
+                            "name": "TestSlider",
+                            "width": 1,
+                            "min": 0,
+                            "max": 100
                         },
                         {
                             "id": "comment",

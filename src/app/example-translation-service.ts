@@ -67,6 +67,8 @@ export class ExampleTranslationService extends TranslationService {
                 "TaskName": "Aufgabe Name",
                 "Type": "Typ",
                 "User": "Benutzer",
+                "Informations": "Informationen",
+                "TestSlider": "TestSlider",
                 "www.google.com": "www.google.com"
             };
         } else {
@@ -118,6 +120,8 @@ export class ExampleTranslationService extends TranslationService {
                 "TaskName": "Task Name",
                 "Type": "Type",
                 "User": "User",
+                "Informations": "Informations",
+                "TestSlider": "TestSlider",
                 "www.google.com": "www.google.com"
             };
         }
