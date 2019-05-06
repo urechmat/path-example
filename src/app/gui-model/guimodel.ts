@@ -119,14 +119,15 @@ export class GuiModel {
                             "id": "formMap",
                             "type": "Maps",
                             "name": "Location",
-                            "width": 2,
+                            "addMarker": true,
+                            "clearMap": false,
                             "marker": [{
                                 latitude: 47.37900941026924,
                                 longitude: 8.592210836538356,
                                 title: "Head Office"
                             }, {
                                 latitude: 47.67900941026924,
-                                longitude: 8.592210836538356,
+                                longitude: 9.592210836538356,
                                 title: "Head Office 2"
                             }
                             ]
