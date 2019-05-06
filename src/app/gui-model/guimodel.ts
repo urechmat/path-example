@@ -120,17 +120,7 @@ export class GuiModel {
                             "type": "Maps",
                             "name": "Location",
                             "addMarker": true,
-                            "clearMap": false,
-                            "marker": [{
-                                latitude: 47.37900941026924,
-                                longitude: 8.592210836538356,
-                                title: "Head Office"
-                            }, {
-                                latitude: 47.67900941026924,
-                                longitude: 9.592210836538356,
-                                title: "Head Office 2"
-                            }
-                            ]
+                            "clearMap": true
                         },
                         {
                             "type": "deleteButton",
