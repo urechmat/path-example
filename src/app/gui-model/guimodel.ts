@@ -119,7 +119,7 @@ export class GuiModel {
                             "id": "formMap",
                             "type": "Maps",
                             "name": "Location",
-                            "addMarker": true,
+                            "draggable": true,
                             "clearMap": true
                         },
                         {
