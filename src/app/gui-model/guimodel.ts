@@ -178,6 +178,14 @@ export class GuiModel {
                             ]
                         },
                         {
+                            "id": "formMap",
+                            "type": "Maps",
+                            "name": "Location",
+                            "draggable": true,
+                            "clearMap": true
+                        },
+
+                        {
                             "type": "deleteButton",
                             "name": "Delete"
                         },
