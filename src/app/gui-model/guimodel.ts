@@ -61,7 +61,7 @@ export class GuiModel {
                             "name": "TestTable",
                             "readonly": true,
                             "sorting": false,
-                            "header": [{
+                            "headerRow": [{
                                 key: "col1",
                                 name: "Column 1"
                             }, {
@@ -75,7 +75,7 @@ export class GuiModel {
                                 name: "Column 4"
                             }
                             ],
-                            "row": [{
+                            "rows": [{
                                 col1: "Column 1 Row 1",
                                 col2: "Column 2 Row 1",
                                 col3: "Column 3 Row 1",
@@ -89,9 +89,9 @@ export class GuiModel {
                             ]
                         },
                         {
-                            "id": "informations",
+                            "id": "accordion",
                             "type": "Accordion",
-                            "name": "Informations",
+                            "name": "Information",
                             "width": 2,
                             "multiple": false,
                             "accordion": [{
