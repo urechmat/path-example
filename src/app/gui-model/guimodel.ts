@@ -59,8 +59,10 @@ export class GuiModel {
                             "id": "formTable",
                             "type": "FormTable",
                             "name": "TestTable",
-                            "readonly": true,
-                            "sorting": false,
+                            "title": "This is a title",
+                            "readonly": false,
+                            "sorting": true,
+                            "scrollable": true,
                             "headerRow": [{
                                 key: "col1",
                                 name: "Column 1"
@@ -109,7 +111,9 @@ export class GuiModel {
                             "name": "TestSlider",
                             "width": 1,
                             "min": 0,
-                            "max": 100
+                            "max": 100,
+                            "value": 50,
+                            "step": 5
                         },
                         {
                             "id": "comment",
